@@ -235,7 +235,8 @@ if prompt := st.chat_input("What is up?"):
 
                 #------------------ PLOTTING IMAGES ------------------
                 image_style_request = image_matcher(full_response)
-                image_path = image_address[image_style_request]
+                image_name = image_address[image_style_request]
+                image_path = os.path.join('static', image_name)
                 st.image(image_path, use_column_width=True)
 
 
