@@ -193,11 +193,11 @@ llama2 = Llama2()
 
 #--- Image Address
 image_address = {
-    "casual": "fashion_styles\\casual.jpeg",
-    "party": "fashion_styles\\party.jpeg",
-    "sport": "fashion_styles\\sport.jpeg",
-    "formal": "fashion_styles\\formal.jpeg",
-    "travel": "fashion_styles\\travelling.jpeg"
+    "casual": "casual.jpeg",
+    "party": "party.jpeg",
+    "sport": "sport.jpeg",
+    "formal": "formal.jpeg",
+    "travel": "travelling.jpeg"
 }
 
 #=======================================================
