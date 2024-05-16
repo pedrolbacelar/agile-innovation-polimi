@@ -50,7 +50,7 @@ class Llama2():
 
     def give_profile_overview(self, request):
         #--- Give an overview of the user profile and the best university, and why it is the best match
-        overview_profile = f"Based on my request, what outfit is better for me: 'casual', 'party', 'sport', 'formal', 'travelling'"
+        overview_profile = f"Based on my request, what outfit is better for me: 'casual', 'party', 'sport', 'formal', 'travel'"
 
         final_prompt = request + " | " + overview_profile
 
